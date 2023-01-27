@@ -14,5 +14,13 @@ html, body, #root{
    width: 100%;
 }
 
+:root{
+   --primary : #011627;
+   --segundary: #121212;
+
+   --white: #ffffff;
+
+}
+
 `
 
