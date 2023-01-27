@@ -12,6 +12,8 @@ export default createGlobalStyle`
 html, body, #root{
    height: 100%;
    width: 100%;
+
+   font-family: 'Rubik', sans-serif;
 }
 
 :root{
