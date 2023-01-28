@@ -14,6 +14,7 @@ html, body, #root{
    width: 100%;
 
    font-family: 'Rubik', sans-serif;
+   font-size:62.5%;
 }
 
 
