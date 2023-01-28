@@ -1,5 +1,5 @@
 
-import { Container } from "./style"
+import {Container} from './style'
 
 export const Footer = () => {
 
