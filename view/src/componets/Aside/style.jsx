@@ -1,8 +1,9 @@
 
 import styled from "styled-components";
-import {BiHomeAlt, BiSearchAlt} from 'react-icons/bi';
+import { AiOutlineHome } from 'react-icons/ai';
+import { BiSearchAlt } from 'react-icons/bi';
 
-export const Container = styled.div`
+export const Container = styled.aside`
 
    grid-area: asid;
    height: 100%;
@@ -13,6 +14,27 @@ export const Container = styled.div`
 
    padding: 2rem 1.5rem;
 
+   @media (max-width: 600px){
+      background-color: var(--segundary);
+
+      padding: 0;
+   }
+
+
+`
+
+export const Mobil = styled.div`
+   display: none;
+
+   @media (max-width: 600px){
+
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      
+   }
 `
 
 export const Header = styled.header`
@@ -21,9 +43,13 @@ export const Header = styled.header`
    font-size: 2rem;
    margin-bottom: 2rem;
 
+   @media (max-width: 600px){
+      display: none;
+   }
+
 `
 
-export const Home = styled.button`
+export const ButtonHome = styled.button`
    width: 100%;
    background-color: var(--segundary);
 
@@ -43,18 +69,22 @@ export const Home = styled.button`
       font-size: 2.5rem;
       font-weight: bolder;
    }
+
+   @media (max-width: 600px){
+      display: none;
+   }
  
 `
 
-export const HomeIcon = styled(BiHomeAlt)`
+export const IconHome = styled(AiOutlineHome)`
    font-size: 2.5rem;
    color: var(--white);
 `
 
-export const Search = styled(Home)`
+export const ButtonSearch = styled(ButtonHome)`
 
 `
-export const SearchIcon = styled(BiSearchAlt)`
-     font-size: 2.5rem;
+export const IconSearch = styled(BiSearchAlt)`
+   font-size: 2.5rem;
    color: var(--white);
 `

@@ -1,6 +1,6 @@
 
 
- import styled from 'styled-components';
+import styled from 'styled-components';
 
 export const Grid = styled.div`
   max-width: 1800px;
@@ -18,5 +18,17 @@ export const Grid = styled.div`
   ;
 
   height: 100vh;
+
+  @media (max-width:600px ){
+
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 70% 15%;
+
+    grid-template-areas: 
+   'asid head'
+   'main main'
+   'foot foot'
+  ;
+  }
 
 `;

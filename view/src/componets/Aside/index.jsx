@@ -1,25 +1,34 @@
 
 
-import {Container, Header, Home, HomeIcon, Search, SearchIcon} from './style';
+import { Container, Header, Mobil, ButtonHome, IconHome, ButtonSearch, IconSearch  } from './style';
+
 
 
 export const Aside = () => {
 
-   return ( 
+   return (
       <Container>
+
+         <Mobil>
+            <IconHome mobil = {true}/>
+            <IconSearch mobil={true} />
+         </Mobil>
+
+
          <Header>
             <h1>My APP MUSIC</h1>
          </Header>
 
-         <Home red='true'>
-            <HomeIcon/> 
+         <ButtonHome text='Início'>
+            <IconHome/>
             <span>Início</span>
-         </Home>
+         </ButtonHome>
 
-         <Search>
-            <SearchIcon/> 
+         <ButtonSearch text='Buscar'>
+            <IconSearch/>
             <span>Buscar</span>
-         </Search>
+         </ButtonSearch>
+         
 
       </Container>
    )
