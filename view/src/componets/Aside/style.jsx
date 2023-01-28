@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 `
 
-export const Header = styled.div`
+export const Header = styled.header`
    width: 100%;
    text-align: center;
    
@@ -23,7 +23,7 @@ export const Header = styled.div`
 
 `
 
-export const Home = styled.div`
+export const Home = styled.button`
    width: 100%;
    background-color: var(--segundary);
 
@@ -48,30 +48,13 @@ export const Home = styled.div`
 
 export const HomeIcon = styled(BiHomeAlt)`
    font-size: 25px;
+   color: var(--white);
 `
 
-export const Search = styled.div`
-
-    width: 100%;
-   background-color: var(--segundary);
-
-   height: 40px;
-   padding: 15px 20px;
-   border-radius: 10px;
-   display: flex;
-   align-items: center;
-   gap: 15px;
-   cursor: pointer;
-
-   >span{
-      color: var(--white);
-      text-decoration: none;
-      font-size: 25px;
-      font-weight: bolder;
-   }
-
+export const Search = styled(Home)`
 
 `
 export const SearchIcon = styled(BiSearchAlt)`
      font-size: 25px;
+   color: var(--white);
 `

@@ -11,7 +11,7 @@ export const Aside = () => {
             <h1>My APP MUSIC</h1>
          </Header>
 
-         <Home>
+         <Home red='true'>
             <HomeIcon/> 
             <span>Início</span>
          </Home>
