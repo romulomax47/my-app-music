@@ -1,6 +1,6 @@
 
 
-import { Container, Header, Mobil, ButtonHome, IconHome, ButtonSearch, IconSearch  } from './style';
+import { Container, Header, Mobil, ButtonHome, IconHome, FormSearch, IconSearch  } from './style';
 
 
 
@@ -24,10 +24,10 @@ export const Aside = () => {
             <span>Início</span>
          </ButtonHome>
 
-         <ButtonSearch text='Buscar'>
+         <FormSearch text='Buscar'>
             <IconSearch/>
-            <span>Buscar</span>
-         </ButtonSearch>
+            <input type = 'text' placeholder='Buscar'></input>
+         </FormSearch>
          
 
       </Container>

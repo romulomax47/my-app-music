@@ -81,7 +81,37 @@ export const IconHome = styled(AiOutlineHome)`
    color: var(--white);
 `
 
-export const ButtonSearch = styled(ButtonHome)`
+export const FormSearch = styled.form`
+
+   width: 100%;
+   background-color: var(--segundary);
+
+   
+   height: 4rem;
+   padding: 1.5rem 2rem;
+   border-radius: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   input{
+      width: 100%;
+      height: 4rem;
+      
+      background-color: var(--segundary);
+      border: none;
+
+      &::placeholder{
+         color: var(--white);
+         font-size: 2.5rem;
+         font-weight: 600;
+      }
+
+      &:focus{
+         outline: none;
+         font-size: 2.5rem;
+         color: var(--white)
+      }
+   }
 
 `
 export const IconSearch = styled(BiSearchAlt)`
