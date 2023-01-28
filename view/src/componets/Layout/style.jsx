@@ -25,7 +25,7 @@ export const Grid = styled.div`
     grid-template-rows: 15% 70% 15%;
 
     grid-template-areas: 
-   'asid head'
+   'head head'
    'main main'
    'foot foot'
   ;
