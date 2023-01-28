@@ -1,14 +1,19 @@
 import styled from "styled-components";
 
 
-export const Container = styled.div`
+export const Container = styled.header`
    grid-area: head;
 
-   border: 1px solid black;
+   background-color: var(--segundary);
    display: flex;
    align-items: center;
    justify-content: right;
 
-   padding: 0 30px;
+   padding: 0 3rem;
+   color:var(--white);
+
+   >h1{
+      font-size: 3rem;
+   }
 
 `
