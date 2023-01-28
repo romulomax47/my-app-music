@@ -16,6 +16,12 @@ html, body, #root{
    font-family: 'Rubik', sans-serif;
 }
 
+
+button{
+   border: none;
+
+}
+
 :root{
    --primary : #011627;
    --segundary: #121212;
