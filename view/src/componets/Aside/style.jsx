@@ -85,7 +85,6 @@ export const FormSearch = styled.form`
 
    width: 100%;
    background-color: var(--segundary);
-
    
    height: 4rem;
    padding: 1.5rem 2rem;
