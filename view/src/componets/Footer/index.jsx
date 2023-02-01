@@ -1,11 +1,14 @@
 
-import {Container} from './style'
+import React from 'react';
 
-export const Footer = () => {
+// import { Container } from './styles';
 
-   return (
-      <Container>
-         <h1>FOOTER</h1>
-      </Container>
-   )
+function Footer() {
+  return (
+   <div>
+      <h2>Foooter</h2>
+   </div>
+  );
 }
+
+export default Footer;
